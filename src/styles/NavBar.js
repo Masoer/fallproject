@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export const Navbar = styled.ul`
   display: flex;
   justify-content: space-between;
-  font-family: helvetica, arial, sans-serif;
+
   padding: 10px;
   margin: 0 auto;
   align-items: center;
@@ -29,7 +29,7 @@ export const Navdiv = styled.div`
 `;
 
 export const StyledLink = styled(NavLink)`
-  color: #008cea;
+  color: white;
   text-decoration: none;
   background: none;
   list-style: none;

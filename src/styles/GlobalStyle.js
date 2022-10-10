@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
         
         letter-spacing: 1px;
         font-family: 'Courier New', Courier;
+        
         font-size: 1.3vw;
         
 

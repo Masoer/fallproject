@@ -1,5 +1,8 @@
 import { Route, Routes } from "react-router-dom";
+import ContactPage from "./pages/ContactPage";
+import ExplorationPage from "./pages/ExplorationPage";
 import Home from "./pages/HomePage";
+import SolarSystem from "./pages/SolarSystemPage";
 import GlobalStyle from "./styles/GlobalStyle";
 import { Navbar, Navdiv, StyledLink } from "./styles/NavBar";
 
@@ -9,11 +12,17 @@ function App() {
       <GlobalStyle />
       <Navbar sticky="top">
         <Navdiv>
-          <StyledLink to="/"> Home </StyledLink>
+          <StyledLink to="/Home"> Home </StyledLink>
+          <StyledLink to="/SolarSystemPage"> Solar System</StyledLink>
+          <StyledLink to="/ExplorationPage"> Exploration</StyledLink>
+          <StyledLink to="/ContactPage"> Contact</StyledLink>
         </Navdiv>
       </Navbar>
       <Routes>
         <Route path="*" element={<Home />} />
+        <Route path="SolarSystemPage" element={<SolarSystem />} />
+        <Route path="ExplorationPage" element={<ExplorationPage />} />
+        <Route path="ContactPage" element={<ContactPage />} />
       </Routes>
     </div>
   );
