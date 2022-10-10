@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const SpinningVideo = styled.video`
   height: auto;
   width: 100%;
-  z-index: 0;
+  overflow: hidden;
 
+  z-index: 0;
   left: 0px;
   top: 0px;
   margin: 0 auto;
