@@ -7,19 +7,15 @@ export const Navbar = styled.ul`
   font-family: helvetica, arial, sans-serif;
   padding: 10px;
   margin: 0 auto;
-
   align-items: center;
-
   position: sticky;
-
   z-index: 1;
 
-  background: rgba(6, 146, 170, 0);
-  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.45);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(9.1px);
-  -webkit-backdrop-filter: blur(9.1px);
-  border: 1px solid rgba(6, 146, 170, 0.65);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 
   @media only screen and (max-width: 40em) {
     display: none;
