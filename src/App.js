@@ -4,13 +4,15 @@ import ExplorationPage from "./pages/ExplorationPage";
 import Home from "./pages/HomePage";
 import SolarSystem from "./pages/SolarSystemPage";
 import GlobalStyle from "./styles/GlobalStyle";
-import { Navbar, Navdiv, StyledLink } from "./styles/NavBar";
+import { ImageLogo, Navbar, Navdiv, StyledLink } from "./styles/NavBar";
+import Logo from "./pages/Logo.png";
 
 function App() {
   return (
     <div>
       <GlobalStyle />
       <Navbar sticky="top">
+        <ImageLogo src={Logo} alt="logo" />
         <Navdiv>
           <StyledLink to="/Home"> Home </StyledLink>
           <StyledLink to="/SolarSystemPage"> Solar System</StyledLink>

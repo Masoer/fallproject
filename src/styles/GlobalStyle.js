@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Courier New', Courier;
         
         font-size: 1.3vw;
-        
+        color: white;
 
       box-sizing: border-box;
        margin: 0;

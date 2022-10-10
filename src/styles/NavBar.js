@@ -46,3 +46,8 @@ export const StyledLink = styled(NavLink)`
     font-size: 20px;
   }
 `;
+
+export const ImageLogo = styled.img`
+  height: auto;
+  width: 10%;
+`;
