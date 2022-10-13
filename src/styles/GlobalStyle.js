@@ -24,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
     }
     h1 {
       color: white;
+      margin: 5px;
     }
   
    

@@ -22,6 +22,9 @@ export const SpaceText = styled.h1`
   font-size: 20px;
   text-align: center;
   padding: 5px;
+
+  @media only screen and (max-width: 40em) {
+  }
 `;
 
 export const DivText = styled.div`
@@ -39,6 +42,9 @@ export const DivText = styled.div`
   border: 1px solid rgba(0, 0, 0, 0.05);
 
   padding: 50px;
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
 `;
 
 export const StyledButton = styled.button`
