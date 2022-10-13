@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container h1 {
+  font-size: 2rem;
+}
+.container h2 {
+  font-size: 1.5rem;
+  margin-block: 1rem;
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  color: cyan;
+}
+
+.crew {
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  z-index: 1;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+
+  padding: 50px;
+}
