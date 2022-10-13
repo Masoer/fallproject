@@ -5,12 +5,16 @@ import Home from "./pages/HomePage";
 import SolarSystem from "./pages/SolarSystemPage";
 import GlobalStyle from "./styles/GlobalStyle";
 import { ImageLogo, Navbar, Navdiv, StyledLink } from "./styles/NavBar";
-import Logo from "./pages/Logo.png";
+import Logo from "./img/Logo.png";
+import NavBarHeader from "./components/NavBarHeader";
 
 function App() {
   return (
     <div>
       <GlobalStyle />
+
+      <NavBarHeader />
+
       <Navbar sticky="top">
         <ImageLogo src={Logo} alt="logo" />
         <Navdiv>
