@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <MobileText />
       <DivVideo>
-        <SpinningVideo className="videoTag" autoPlay loop muted>
+        <SpinningVideo autoPlay loop muted>
           <source src={SpinningEarth} type="video/mp4" />
         </SpinningVideo>
         <DivText>

@@ -20,7 +20,7 @@ const ContactPage = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("http://localhost:5000/ContactPage", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -34,7 +34,7 @@ const ContactPage = () => {
   return (
     <>
       <DivVideo>
-        <SpinningVideo className="videoTag" autoPlay loop muted>
+        <SpinningVideo autoPlay loop muted>
           <source src={SpinningGalaxy} type="video/mp4" />
         </SpinningVideo>
         <DivText>
@@ -71,5 +71,32 @@ const ContactPage = () => {
 export const StyledInput = styled.input`
   color: black;
 `;
+
+// var nodemailer = require("nodemailer");
+
+// var transporter = nodemailer.createTransport({
+//   service: "gmail",
+//   auth: {
+//     user: "sofie.kodehode@gmail.com",
+//     pass: "@HanzO80089",
+//   },
+// });
+
+// var mailOptions = {
+//   from: name,
+//   to: "sofie.kodehode@gmail.com",
+//   subject: "Contact Form Submission",
+//   html: `<p>Name: ${name}</p>
+//            <p>Email: ${email}</p>
+//            <p>Message: ${message}</p>`,
+// };
+
+// transporter.sendMail(mailOptions, function (error, info) {
+//   if (error) {
+//     console.log(error);
+//   } else {
+//     console.log("Email sent: " + info.response);
+//   }
+// });
 
 export default ContactPage;
