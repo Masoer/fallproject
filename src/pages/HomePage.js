@@ -7,11 +7,13 @@ import {
   SpinningVideo,
   StyledButton,
 } from "./homePage/HomeStyled";
+import MobileText from "./homePage/MobilText";
 
 const Home = () => {
   const navigate = useNavigate();
   return (
     <>
+      <MobileText />
       <DivVideo>
         <SpinningVideo className="videoTag" autoPlay loop muted>
           <source src={SpinningEarth} type="video/mp4" />
