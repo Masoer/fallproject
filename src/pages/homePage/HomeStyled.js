@@ -47,6 +47,24 @@ export const DivText = styled.div`
   }
 `;
 
+export const DivTextMobile = styled.div`
+  display: block;
+  @media only screen and (max-width: 40em) {
+    position: absolute;
+    top: 34%;
+    left: 30%;
+    z-index: 1;
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+`;
+
 export const StyledButton = styled.button`
   padding: 10px;
   color: white;
@@ -56,4 +74,30 @@ export const StyledButton = styled.button`
   backdrop-filter: blur(5.4px);
   -webkit-backdrop-filter: blur(5.4px);
   border: 2px solid black;
+`;
+
+export const StyledMobile = styled.h1`
+  margin: 5px;
+  font-size: 4rem;
+
+  @media only screen and (min-width: 40em) {
+    display: none;
+  }
+`;
+
+export const MobileButton = styled.button`
+  display: block;
+
+  @media only screen and (max-width: 40em) {
+    font-size: 4rem;
+
+    padding: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 2px solid black;
+  }
 `;

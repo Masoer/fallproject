@@ -2,10 +2,12 @@ import { useNavigate } from "react-router-dom";
 import SpinningEarth from "../video/SpinningEarth.mp4";
 import {
   DivText,
+  DivTextMobile,
   DivVideo,
   SpaceText,
   SpinningVideo,
   StyledButton,
+  MobileButton,
 } from "./homePage/HomeStyled";
 import MobileText from "./homePage/MobilText";
 
@@ -25,6 +27,11 @@ const Home = () => {
             Learn more
           </StyledButton>
         </DivText>
+        <DivTextMobile>
+          <MobileButton onClick={() => navigate("/SolarSystemPage")}>
+            Learn more
+          </MobileButton>
+        </DivTextMobile>
       </DivVideo>
     </>
   );
