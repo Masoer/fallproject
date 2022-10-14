@@ -8,7 +8,7 @@ export const StyledMobile = styled.h1`
 
   @media only screen and (max-width: 40em) {
     margin: 5px;
-    font-size: 1em;
+    font-size: 3em;
   }
 `;
 

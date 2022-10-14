@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     
 
         @media only screen and (max-width: 40em) {
-          font-size: 5vw;
+      
           
         }
     };
