@@ -1,4 +1,3 @@
-import "./ExplorationPage.css"
 import { Exploration } from "./explorationPageFiles/styled"
 import { useState, useEffect } from "react"
 
