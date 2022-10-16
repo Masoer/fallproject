@@ -7,13 +7,13 @@ const ExplorationPage = () => {
 
   const fetchLocation = async () => {
     const query = await fetch(
-      "https://api.wheretheiss.at/v1/satellites/25544"
+      "http://api.wheretheiss.at/v1/satellites/25544"
     ).then((res) => res.json())
     setLocData(query)
   }
 
   const fetchCrew = async () => {
-    const query = await fetch("https://api.open-notify.org/astros.json").then(
+    const query = await fetch("http://api.open-notify.org/astros.json").then(
       (res) => res.json()
     )
     const filteredQuery = query.people.filter(
