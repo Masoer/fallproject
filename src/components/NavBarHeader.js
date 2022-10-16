@@ -1,6 +1,6 @@
 import { useState, useRef } from "react"
 import { StyledLink } from "../styles/NavBar"
-import Logo from "../img/Logo.png"
+import Logo from "../images/Logo.png"
 
 import { Header, NavList, NavToggle, ImgMobile } from "./StyledHeader"
 

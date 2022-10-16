@@ -5,7 +5,7 @@ import Home from "./pages/HomePage"
 import SolarSystem from "./pages/SolarSystemPage"
 import GlobalStyle from "./styles/GlobalStyle"
 import { ImageLogo, Navbar, Navdiv, StyledLink } from "./styles/NavBar"
-import Logo from "./img/Logo.png"
+import Logo from "./images/Logo.png"
 import NavBarHeader from "./components/NavBarHeader"
 
 function App() {
