@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
     *{
@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
         letter-spacing: 1px;
         font-family: 'Courier New', Courier;
         
-        font-size: 1.3vw;
+        font-size: 1.3vw; // 
         color: white;
 
       box-sizing: border-box;
@@ -30,6 +30,6 @@ const GlobalStyle = createGlobalStyle`
    
     
 
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle

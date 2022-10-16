@@ -1,30 +1,30 @@
-import { useState, useRef } from "react";
-import { StyledLink } from "../styles/NavBar";
-import Logo from "../img/Logo.png";
+import { useState, useRef } from "react"
+import { StyledLink } from "../styles/NavBar"
+import Logo from "../img/Logo.png"
 
-import { Header, NavList, NavToggle, ImgMobile } from "./StyledHeader";
+import { Header, NavList, NavToggle, ImgMobile } from "./StyledHeader"
 
 const NavBarHeader = () => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(false)
 
   const menuToggle = () => {
-    setActive(!active);
-    console.log("yo");
-  };
+    setActive(!active)
+    console.log("yo")
+  }
 
   const autoClose = () => {
-    setActive(false);
-  };
+    setActive(false)
+  }
 
-  const menu = useRef(null);
+  const menu = useRef(null)
 
   const closeMenu = (e) => {
     if (menu.current && active && !menu.current.contains(e.target)) {
-      setActive(false);
+      setActive(false)
     }
-  };
+  }
 
-  document.addEventListener("mousedown", closeMenu);
+  document.addEventListener("mousedown", closeMenu)
 
   return (
     <>
@@ -51,7 +51,7 @@ const NavBarHeader = () => {
         </NavToggle>
       </Header>
     </>
-  );
-};
+  )
+}
 
-export default NavBarHeader;
+export default NavBarHeader

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Header = styled.header`
   display: none;
@@ -15,7 +15,7 @@ export const Header = styled.header`
     top: 5px;
     z-index: 1001;
   }
-`;
+`
 
 export const NavList = styled.nav`
   display: flex;
@@ -41,7 +41,7 @@ export const NavList = styled.nav`
 
     transform: translateX(${(props) => (props.active ? "0%" : "150%")});
   }
-`;
+`
 
 export const NavToggle = styled.div`
   position: relative;
@@ -81,9 +81,9 @@ export const NavToggle = styled.div`
   @media (max-width: 820px) {
     display: block;
   }
-`;
+`
 
 export const ImgMobile = styled.img`
   height: auto;
   width: 45%;
-`;
+`
