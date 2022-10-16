@@ -1,6 +1,8 @@
 import { Exploration } from "./explorationPageFiles/styled"
 import { useState, useEffect } from "react"
 
+// Troubleshooting mixed content warning
+
 const ExplorationPage = () => {
   const [locData, setLocData] = useState({})
   const [crewData, setCrewData] = useState({})
