@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fallproject/static/css/main.e6c13ad2.css",
-    "main.js": "/fallproject/static/js/main.2876d16b.js",
+    "main.js": "/fallproject/static/js/main.568d573f.js",
     "static/js/787.37c9bc29.chunk.js": "/fallproject/static/js/787.37c9bc29.chunk.js",
     "static/media/SpinningEarth.mp4": "/fallproject/static/media/SpinningEarth.217bc138c2eb8d98fc50.mp4",
     "static/media/SpinningGalaxy.mp4": "/fallproject/static/media/SpinningGalaxy.56c183b8d8a25db647e4.mp4",
@@ -12,11 +12,11 @@
     "static/media/Logo.png": "/fallproject/static/media/Logo.7d85962eb27f830c3a5b.png",
     "index.html": "/fallproject/index.html",
     "main.e6c13ad2.css.map": "/fallproject/static/css/main.e6c13ad2.css.map",
-    "main.2876d16b.js.map": "/fallproject/static/js/main.2876d16b.js.map",
+    "main.568d573f.js.map": "/fallproject/static/js/main.568d573f.js.map",
     "787.37c9bc29.chunk.js.map": "/fallproject/static/js/787.37c9bc29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.2876d16b.js"
+    "static/js/main.568d573f.js"
   ]
 }
