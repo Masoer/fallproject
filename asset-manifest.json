@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/fallproject/static/css/main.d92b84a1.css",
-    "main.js": "/fallproject/static/js/main.caa03d29.js",
+    "main.css": "/fallproject/static/css/main.e6c13ad2.css",
+    "main.js": "/fallproject/static/js/main.568d573f.js",
     "static/js/787.37c9bc29.chunk.js": "/fallproject/static/js/787.37c9bc29.chunk.js",
     "static/media/SpinningEarth.mp4": "/fallproject/static/media/SpinningEarth.217bc138c2eb8d98fc50.mp4",
     "static/media/SpinningGalaxy.mp4": "/fallproject/static/media/SpinningGalaxy.56c183b8d8a25db647e4.mp4",
     "static/media/SpinningMars.mp4": "/fallproject/static/media/SpinningMars.817d8482bfe6d31dec77.mp4",
-    "static/media/SpinningJupiter.mp4": "/fallproject/static/media/SpinningJupiter.61ecc8da139e3af7818c.mp4",
     "static/media/planet-earth.jpg": "/fallproject/static/media/planet-earth.e592e17793aa41bd87a3.jpg",
     "static/media/planet-mars.jpg": "/fallproject/static/media/planet-mars.933d002cb9d73c3b04c1.jpg",
-    "static/media/solar-system.jpg": "/fallproject/static/media/solar-system.3920ea1bb3ab390a537c.jpg",
     "static/media/planet-venus.jpg": "/fallproject/static/media/planet-venus.9b8330c9d306d0c37b7b.jpg",
     "static/media/Logo.png": "/fallproject/static/media/Logo.7d85962eb27f830c3a5b.png",
     "index.html": "/fallproject/index.html",
-    "main.d92b84a1.css.map": "/fallproject/static/css/main.d92b84a1.css.map",
-    "main.caa03d29.js.map": "/fallproject/static/js/main.caa03d29.js.map",
+    "main.e6c13ad2.css.map": "/fallproject/static/css/main.e6c13ad2.css.map",
+    "main.568d573f.js.map": "/fallproject/static/js/main.568d573f.js.map",
     "787.37c9bc29.chunk.js.map": "/fallproject/static/js/787.37c9bc29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d92b84a1.css",
-    "static/js/main.caa03d29.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.568d573f.js"
   ]
 }
