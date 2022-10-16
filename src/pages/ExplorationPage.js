@@ -9,7 +9,7 @@ const ExplorationPage = () => {
 
   const fetchLocation = async () => {
     const query = await fetch(
-      "http://api.wheretheiss.at/v1/satellites/25544"
+      "https://api.wheretheiss.at/v1/satellites/25544"
     ).then((res) => res.json())
     setLocData(query)
   }
